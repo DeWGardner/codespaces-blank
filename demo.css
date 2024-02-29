@@ -1,0 +1,28 @@
+body{background-color:#A7B1ff;
+font-size: 100%;
+color:white;
+}
+.body{
+  margin: 150px;
+} 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 180px 180px;
+  padding:20px;
+}
+
+.grid-container > div {
+  background-color: #8de2bb;
+  text-align: center;
+  font-size: 30px;
+  margin: 5px;
+  border: 10px solid #5e66c4;
+  border-bottom: 100px solid #5e66c4;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  height: 125px;
+  width: 50%;
+}
