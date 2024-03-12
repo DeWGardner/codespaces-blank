@@ -3,7 +3,7 @@ font-size: 100%;
 color:white;
 }
 .body{
-  margin: 50px;
+  margin: 25px;
 } 
 .right {
   position: absolute;
@@ -14,12 +14,23 @@ color:white;
   background-color:#8de2bb;
   border: 1px solid #8de2bb;
   text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
 }
 #myHeader {
   color:white;
   font-size:25px;
   font-family:Arial, Helvetica, sans-serif;
   text-align: center;
+}
+.center-bottom{
+  background-color:#5e66c4;
+  border: 1px solid #5e66c4;
+  margin: auto;
+  text-align:center;
+  padding: 10px;
+  width: 50%;
 }
 .grid-header{
   display:grid;
@@ -28,25 +39,26 @@ color:white;
   font-size:30px;
   font-family:Arial, Helvetica, sans-serif;
   color: #5E66C4;
+  text-align: center;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: 180px 180px;
+  grid-template-rows: 60px 180px;
   padding:20px;
+  width: 75%;
+  margin: auto;
 }
 
 .grid-container > div {
   background-color: #8de2bb;
   text-align: center;
   font-size: 30px;
-  margin: 5px;
   border: 10px solid #5e66c4;
-  border-bottom: 100px solid #5e66c4;
-  padding: 10px;
+  border-bottom: 70px solid #5e66c4;
+  padding: 5px;
   font-size: 30px;
-  text-align: center;
   height: 125px;
   width: 50%;
 }
